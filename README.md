@@ -82,7 +82,7 @@ print(result$ks_diagnosis$feature_max)  # Most imbalanced feature
 
 
 # Example Output
-
+```r
 ========== Diagnostic Summary ==========
 Combined p-value: 0.575 
 Decision: ACCEPT H0 - Split ADEQUATE 
@@ -93,7 +93,7 @@ Individual p-values:
    mmd : 1 
    ks : 1 
 ========================================
-
+```
 
 # Detailed Function Documentation
 # Core Diagnostic Function
