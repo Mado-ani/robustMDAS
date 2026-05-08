@@ -39,15 +39,19 @@ library(robustMDAS)
 ```
 # From Source
 
+```r
 # Download the package
 git clone https://github.com/Mado-ani/robustMDAS.git
 cd robustMDAS
 
 # Install in R
 R CMD INSTALL .
+```
 
 # Quick Start
 # Basic Usage
+
+```r
 library(robustMDAS)
 
 # Generate synthetic clinical data
@@ -74,6 +78,8 @@ result <- robust_diagnostic(X_train, X_test, n_replications = 200)
 print(result$p_combined)      # Combined p-value
 print(result$reject_null)     # TRUE = split inadequate
 print(result$ks_diagnosis$feature_max)  # Most imbalanced feature
+```
+
 
 # Example Output
 
@@ -94,6 +100,7 @@ Individual p-values:
 robust_diagnostic()
 Main function implementing Algorithm 1. Assesses train-test split quality.
 
+```r
 robust_diagnostic(
   X_train,           # Training data matrix (n_tr x p)
   X_test,            # Test data matrix (n_te x p)
@@ -104,6 +111,7 @@ robust_diagnostic(
   return_details = FALSE,  # Return full reference distribution
   verbose = TRUE     # Print progress
 )
+```
 
 
 
