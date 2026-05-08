@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Extended Simulation Results}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Convergence of the Robust MDAS Across Sample Sizes}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Type I Error Evaluation Under the Null}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Monte Carlo Replication Sensitivity}{2}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Sensitivity Analyses}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}MCD Coverage Parameter ($\alpha $) Sensitivity}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}MMD Bandwidth Sensitivity}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}KS Battery Multiple Testing Burden}{3}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Additional Experimental Results}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Realistic Contamination Scenario}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Higher-Order Distributional Differences}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Comparison with Existing Two-Sample Tests}{4}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Detailed Experimental Protocols}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Synthetic Data Generation}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}MIMIC-IV Demo Data Processing}{5}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Monte Carlo Reference Distribution}{5}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Computational Resources}{6}{section.6}%
+\contentsline {section}{\numberline {7}Code Availability}{6}{section.7}%
+\contentsline {section}{\numberline {8}Limitations and Future Work}{6}{section.8}%
