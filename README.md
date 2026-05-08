@@ -36,7 +36,7 @@ devtools::install_github("Mado-ani/robustMDAS")
 # Load the package
 library(robustMDAS)
 
-
+```
 # From Source
 
 # Download the package
