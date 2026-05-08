@@ -97,7 +97,9 @@ Individual p-values:
 
 # Detailed Function Documentation
 # Core Diagnostic Function
+```r
 robust_diagnostic()
+```
 Main function implementing Algorithm 1. Assesses train-test split quality.
 
 ```r
