@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^README\.md$
+^\.gitignore$
+^cran-comments\.md$
+^\.travis\.yml$
+^appveyor\.yml$
+^codecov\.yml$

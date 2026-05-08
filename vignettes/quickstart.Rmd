@@ -1,0 +1,37 @@
+
+title: "Quick Start Guide for robustMDAS"
+author: "Mohammed Mundher Thakir"
+date: "r Sys.Date()"
+output: rmarkdown::html_vignette
+vignette: >
+%\VignetteIndexEntry{Quick Start Guide}
+%\VignetteEngine{knitr::rmarkdown}
+%\VignetteEncoding{UTF-8}
+
+{r
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+library(robustMDAS)
+Basic Usage
+{r
+# Generate synthetic data
+set.seed(456)
+data <- simulate_clinical_data(n = 300, task = "sepsis")
+data <- preprocess_clinical_data(data)
+
+# Create train-test split
+n_total <- nrow(data)
+n_train <- floor(0.8 * n_total)
+train_idx <- sample(n_total, n_train)
+
+X_train <- data[train_idx, -ncol(data)]
+X_test <- data[-train_idx, -ncol(data)]
+
+# Run diagnostic
+result <- robust_diagnostic(X_train, X_test, n_replications = 50)
+
+# Print results
+cat("P-value:", result$p_combined, "\n")
+cat("Decision:", ifelse(result$reject_null, "INADEQUATE", "ADEQUATE"), "\n")

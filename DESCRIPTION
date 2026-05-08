@@ -1,0 +1,15 @@
+Package: robustMDAS
+Title: Robust and Comprehensive Diagnostics for Train-Test Data Splitting
+Version: 1.0.0
+Date: 2026-05-07
+Authors@R: person("Mohammed Mundher", "Thakir", email = "mohamad.es91@uoanbar.edu.iq", role = c("aut", "cre"))
+Description: Implements the Robust Mahalanobis Distribution Alignment Score (MDAS) for assessing train-test split quality in clinical machine learning.
+Depends: R (>= 3.5.0)
+Imports: robustbase, energy, MASS, parallel, doParallel, foreach, ggplot2, dplyr, tidyr
+Suggests: testthat, knitr, rmarkdown, shiny, pROC, microbenchmark
+License: MIT
+URL: https://github.com/mohamad-91/robustMDAS
+BugReports: https://github.com/mohamad-91/robustMDAS/issues
+Encoding: UTF-8
+VignetteBuilder: knitr
+RoxygenNote: 7.3.3
